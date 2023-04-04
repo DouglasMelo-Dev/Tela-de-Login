@@ -8,7 +8,7 @@
 }
 
 body{
-    background: url(/imagens/imagem-background-logado.jpg);
+    background: url(../imagens/imagem-background-logado.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
