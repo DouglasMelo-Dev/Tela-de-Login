@@ -117,7 +117,8 @@ function cadastrar(){
 
         setTimeout(() =>{
             // esse link abaixo faz voltar para a tela de login quando conclui o cadastro! top. E esse setTimeout faz demorar alguns segundos antes de ir para a tela de login. Tipo um timer.
-            window.location.href = 'http://127.0.0.1:5500/index.html'
+            window.location.href = 'index.html'
+           
         }, 3000)
         // esse link abaixo faz voltar para a tela de login quando conclui o cadastro! top
        
