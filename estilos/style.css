@@ -17,7 +17,7 @@
 }
 
 body{
-    background: url(./imagens/imagem-background-login.jpg);
+    background: url(../imagens/imagem-background-login.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
