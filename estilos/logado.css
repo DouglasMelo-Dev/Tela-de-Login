@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(/imagens/imagem-background-logado.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+:root{
+    --cor-marrom: #8C7A69;
+    --cor-marrom-clado: #D99559;
+    --cor-verde-agua: #CBF2AE;
+    --cor-verde-escuro: #2A828C;
+    --cor-verde-claro: #39B2BF;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #ffffff99;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    border-radius: 5px;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+button{
+    background-color: var(--cor-verde-claro) ;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+button:hover{
+    background-color: var(--cor-verde-escuro);
+    color: #ffffff;
+}
